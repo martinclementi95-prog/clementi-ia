@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url.replace(/\/$/, "");
   const now = new Date();
 
-  const staticRoutes: MetadataRoute.Sitemap = [
+  const staticRoutes: MetadataRoute.Sitemap = ([
     { url: base, priority: 1.0, changeFrequency: "weekly" },
     { url: `${base}/formations`, priority: 0.9, changeFrequency: "weekly" },
     { url: `${base}/formations-ia`, priority: 0.9, changeFrequency: "weekly" },
@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/a-propos`, priority: 0.7, changeFrequency: "monthly" },
     { url: `${base}/faq`, priority: 0.7, changeFrequency: "monthly" },
     { url: `${base}/contact`, priority: 0.6, changeFrequency: "monthly" },
-  ].map((r) => ({ ...r, lastModified: now }));
+  ] satisfies MetadataRoute.Sitemap).map((r) => ({ ...r, lastModified: now }));
 
   const formationRoutes: MetadataRoute.Sitemap = formations.map((f) => ({
     url: `${base}/formations/${f.slug}`,

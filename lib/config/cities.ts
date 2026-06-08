@@ -513,6 +513,8 @@ export function getCityProfiles(): CityProfile[] {
         slug: slugifyCity(name),
         postalCode: "01000",
         population: "Pays de Gex",
+        lat: 46.3337,
+        lng: 6.0584,
         metaTitle: `Formation IA à ${name} — Pays de Gex`,
         metaDescription: `Formation IA à ${name} : audit, formations, accompagnement IA pour les acteurs économiques de la commune.`,
         h1: `Formation IA à ${name}.`,
