@@ -7,8 +7,7 @@ import { Container, Section } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
-import { getFeaturedFormations } from "@/lib/config/formations";
-import { formatPrice } from "@/lib/utils";
+import { getFeaturedFormations, formationPriceLabel } from "@/lib/config/formations";
 
 export function OffersPreview() {
   const featured = getFeaturedFormations();
@@ -68,7 +67,7 @@ export function OffersPreview() {
                   <div className="hairline" />
                   <div className="flex items-baseline justify-between">
                     <span className="font-bold text-2xl text-white">
-                      {formatPrice(f.price)}
+                      {formationPriceLabel(f)}
                     </span>
                     <span className="text-xs text-ink-500">{f.priceUnit}</span>
                   </div>

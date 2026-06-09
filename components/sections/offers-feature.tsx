@@ -6,8 +6,7 @@ import { ArrowUpRight, Clock, Users } from "lucide-react";
 import { Container, Section } from "@/components/ui/container";
 import { Label } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
-import { getFeaturedFormations } from "@/lib/config/formations";
-import { formatPrice } from "@/lib/utils";
+import { getFeaturedFormations, formationPriceLabel } from "@/lib/config/formations";
 
 export function OffersFeature() {
   const featured = getFeaturedFormations();
@@ -83,7 +82,7 @@ export function OffersFeature() {
                 </span>
                 <span className="opacity-30">·</span>
                 <span className="stat-num text-lg">
-                  {formatPrice(main.price)}
+                  {formationPriceLabel(main)}
                 </span>
                 <span className="text-[var(--color-muted)] text-[13px]">
                   {main.priceUnit}
@@ -123,7 +122,7 @@ export function OffersFeature() {
                     <span>{f.duration}</span>
                     <span className="opacity-40">·</span>
                     <span className="stat-num text-ink text-[15px]">
-                      {formatPrice(f.price)}
+                      {formationPriceLabel(f)}
                     </span>
                     <span>{f.priceUnit}</span>
                   </div>

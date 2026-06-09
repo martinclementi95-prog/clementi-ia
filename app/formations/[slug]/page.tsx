@@ -16,8 +16,8 @@ import { ButtonLink } from "@/components/ui/button";
 import {
   formations,
   getFormation,
+  formationPriceLabel,
 } from "@/lib/config/formations";
-import { formatPrice } from "@/lib/utils";
 import { siteConfig } from "@/lib/config/site";
 import { JsonLd } from "@/components/seo/json-ld";
 import { breadcrumbSchema, courseSchema } from "@/lib/schema";
@@ -117,8 +117,8 @@ export default async function FormationDetailPage({
                   Tarif
                 </p>
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-[2.25rem] font-bold tracking-[-0.03em] text-ink leading-none">
-                    {formatPrice(f.price)}
+                  <span className="text-[2rem] font-bold tracking-[-0.03em] text-ink leading-none">
+                    {formationPriceLabel(f)}
                   </span>
                 </div>
                 <p className="text-[13px] text-muted mt-1">{f.priceUnit}</p>

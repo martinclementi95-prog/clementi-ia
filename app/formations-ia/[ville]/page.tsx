@@ -10,9 +10,8 @@ import {
   courseSchema,
 } from "@/lib/schema";
 import { getCityProfile, getCityProfiles } from "@/lib/config/cities";
-import { getFormation } from "@/lib/config/formations";
+import { getFormation, formationPriceLabel } from "@/lib/config/formations";
 import { siteConfig } from "@/lib/config/site";
-import { formatPrice } from "@/lib/utils";
 
 export async function generateStaticParams() {
   return getCityProfiles().map((c) => ({ ville: c.slug }));
@@ -224,7 +223,7 @@ export default async function CityPage({
                   <div>
                     <dt className="text-muted mb-1">Tarif</dt>
                     <dd className="font-semibold text-ink">
-                      {formatPrice(formation.price)}{" "}
+                      {formationPriceLabel(formation)}{" "}
                       <span className="text-muted-2 font-normal text-[11px]">
                         {formation.priceUnit}
                       </span>

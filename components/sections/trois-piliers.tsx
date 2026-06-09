@@ -7,17 +7,17 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
   {
     title: "Former",
-    text: "Programmes courts pour passer de la curiosité à la maîtrise. Dirigeants, équipes, indépendants.",
+    text: "Vos équipes montent en compétence sur des cas réels. Elles repartent capables de faire, pas juste au courant.",
     href: "/formations",
   },
   {
-    title: "Auditer",
-    text: "Une journée sur site pour cartographier vos cas d’usage à plus fort impact, avec un plan d’action priorisé.",
-    href: "/conseil",
+    title: "Construire",
+    text: "On construit ensemble l’outil qui résout votre problème — automatisation, assistant, back-office. Vous repartez avec.",
+    href: "/formations/chantier-ia",
   },
   {
     title: "Accompagner",
-    text: "Un partenaire dans la durée. Déploiement, formation continue, support direct.",
+    text: "Un partenaire dans la durée. Un nouvel outil par mois, vos équipes autonomes, accès direct.",
     href: "/conseil",
   },
 ];

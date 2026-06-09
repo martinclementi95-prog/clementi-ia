@@ -9,12 +9,12 @@ import { breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Conseil & Accompagnement IA pour PME — Pays de Gex",
   description:
-    "Accompagnement IA sur-mesure pour PME : audit, déploiement d'agents IA, automatisations, RGPD, conduite du changement. Sprint, partenariat 6 mois ou sur-mesure.",
+    "Accompagnement IA sur-mesure pour PME : du cadrage au déploiement d'outils concrets. Chantiers, accompagnement mensuel, projets sur-mesure — automatisations, agents IA, RGPD.",
   alternates: { canonical: `${siteConfig.url}/conseil` },
   openGraph: {
     title: "Conseil & Accompagnement IA pour PME — Pays de Gex",
     description:
-      "Du diagnostic IA au déploiement d'agents et d'automatisations dans votre PME, avec un interlocuteur unique.",
+      "Du cadrage au déploiement d'outils concrets dans votre PME, construits avec vos équipes — avec un interlocuteur unique.",
     url: `${siteConfig.url}/conseil`,
   },
 };
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 const services = [
   {
     icon: Briefcase,
-    title: "Stratégie & Audit IA",
-    text: "Diagnostic approfondi de votre activité. Identification des cas d’usage à plus fort ROI. Feuille de route 12 mois priorisée.",
+    title: "Cadrage & stratégie IA",
+    text: "On identifie ensemble vos cas d’usage à plus fort impact, et le premier outil concret à construire.",
   },
   {
     icon: Workflow,
@@ -54,31 +54,31 @@ const services = [
 
 const packs = [
   {
-    name: "Sprint",
-    duration: "1 à 2 semaines",
-    price: "À partir de 3 500 €",
+    name: "Le Chantier",
+    duration: "À partir d’1 journée",
+    price: "À partir de 1 500 €",
     description:
-      "Un cas d’usage IA livré en mode commando. Idéal pour démontrer la valeur sans engager une transformation complète.",
+      "On choisit un problème concret et on construit ensemble l’outil qui le résout — déployé, à votre nom. Vous repartez avec l’outil et le savoir-faire.",
     features: [
-      "Atelier de cadrage",
-      "Développement d’un POC fonctionnel",
-      "Formation utilisateurs (2 h)",
-      "Documentation complète",
+      "Conception de l’outil avec vous",
+      "Vous aux commandes, je vous coache",
+      "Mise en ligne et hébergement inclus",
+      "Outil livré dans vos comptes",
     ],
     highlighted: false,
   },
   {
-    name: "Partenariat",
+    name: "L’Accompagnement",
     duration: "6 mois — renouvelable",
-    price: "À partir de 2 500 € / mois",
+    price: "800 € / mois",
     description:
-      "Le format de référence pour une PME qui veut intégrer l’IA durablement. 4 cas d’usage déployés, équipes formées, ROI mesuré.",
+      "Le format de référence pour intégrer l’IA durablement : un nouvel outil construit chaque mois, vos équipes autonomes, un accès direct au quotidien.",
     features: [
-      "Audit initial inclus",
-      "1 cas d’usage par trimestre",
-      "Coaching dirigeant mensuel",
-      "Support WhatsApp prioritaire",
+      "1 outil construit et mesuré par mois",
+      "Montée en autonomie de l’équipe",
+      "Accès direct WhatsApp (< 24 h ouvrées)",
       "Revue stratégique trimestrielle",
+      "Vos outils à votre nom, sans dépendance",
     ],
     highlighted: true,
   },
@@ -87,12 +87,12 @@ const packs = [
     duration: "Variable",
     price: "Sur devis",
     description:
-      "Pour des projets de transformation d’ampleur : conception d’une plateforme IA propriétaire, refonte de processus métier critiques.",
+      "Pour un projet d’ampleur : back-office complet, base de données, plateforme IA propriétaire. On cadre, on construit, on déploie ensemble.",
     features: [
       "Cadrage approfondi",
-      "Équipe dédiée mobilisable",
-      "Engagement de résultats",
-      "Reporting hebdomadaire",
+      "Développement et déploiement complets",
+      "Base de données & hébergement",
+      "Prise en main par vos équipes",
     ],
     highlighted: false,
   },
@@ -172,8 +172,8 @@ export default function ConseilPage() {
               Trois manières de travailler ensemble.
             </h2>
             <p className="text-[15px] md:text-[16px] text-muted leading-[1.6]">
-              Du sprint ponctuel à l’accompagnement long terme — je m’adapte à
-              votre maturité IA et à vos contraintes.
+              Du chantier ponctuel à l’accompagnement dans la durée — je
+              m’adapte à votre maturité IA et à vos contraintes.
             </p>
           </div>
 

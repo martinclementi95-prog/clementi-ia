@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Container, Section } from "@/components/ui/container";
 import { Label } from "@/components/ui/badge";
-import { getFormationsByAudience } from "@/lib/config/formations";
-import { formatPrice } from "@/lib/utils";
+import { getFormationsByAudience, formationPriceLabel } from "@/lib/config/formations";
 
 export function B2CStrip() {
   const formations = getFormationsByAudience("b2c");
@@ -62,7 +61,7 @@ export function B2CStrip() {
                   </div>
                   <div className="col-span-12 lg:col-span-3 flex items-center justify-between lg:justify-end gap-3 lg:flex-col lg:items-end pl-12 lg:pl-0">
                     <span className="stat-num text-2xl text-ink">
-                      {formatPrice(f.price)}
+                      {formationPriceLabel(f)}
                     </span>
                     <span className="text-[12px] text-[var(--color-muted)]">
                       {f.priceUnit}

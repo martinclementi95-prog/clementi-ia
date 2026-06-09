@@ -69,9 +69,9 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
           "Transcription audio des séances longues, extraction des décisions et des actions à mener, rédaction de comptes-rendus prêts à publier.",
       },
     ],
-    recommendedFormationSlug: "audit-ia-plan-action",
+    recommendedFormationSlug: "chantier-ia",
     recommendedFormationRationale:
-      "Pour un acteur gexois — commerce, cabinet, PME — la journée d'audit est le format idéal : on cartographie en une journée les leviers IA prioritaires, on chiffre le ROI, et on repart avec un plan 30/60/90 jours. La diversité du tissu local mérite un diagnostic précis plutôt qu'une formation générique.",
+      "Pour un acteur gexois — commerce, cabinet, PME — le Chantier est le format idéal : on choisit un problème concret et on construit ensemble l'outil qui le résout, déployé et prêt à l'emploi. La diversité du tissu local mérite un outil sur mesure plutôt qu'une formation générique.",
     localProof:
       "Marché du jeudi matin, château de Gex, ZAC de l'Aiglette, lycée international, tribunal judiciaire. Sur un rayon de 2 km, on trouve déjà un échantillon représentatif de tout le tissu économique français : Gex est le terrain d'expérimentation idéal du Pays de Gex.",
     closingAngle:
@@ -175,9 +175,9 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
           "Combinaison automatique de soins thermaux, conseils nutritionnels et activités selon le profil et les objectifs du curiste — proposée comme un parcours cohérent plutôt qu'une liste de prestations.",
       },
     ],
-    recommendedFormationSlug: "ia-pour-dirigeants-pme",
+    recommendedFormationSlug: "formation-equipe",
     recommendedFormationRationale:
-      "Pour un directeur d'hôtel, de spa ou d'agence immobilière de prestige à Divonne, deux jours intensifs permettent de comprendre les leviers, expérimenter en conditions réelles, et décider de la suite. La clientèle premium ne tolère pas l'amateurisme : autant prendre le temps de la bonne décision avant de déployer.",
+      "Pour un directeur d'hôtel, de spa ou d'agence immobilière de prestige à Divonne, la formation équipe fait monter vos collaborateurs en compétence sur des cas réels — d'une demi-journée à deux jours selon vos besoins. La clientèle premium ne tolère pas l'amateurisme : autant des équipes formées et autonomes avant de déployer.",
     localProof:
       "Thermes de Divonne, Casino Partouche, Domaine de Divonne (hôtel 5* et golf), lac de Divonne, place du Théâtre, ses villas du XIXe et son architecture thermale Belle Époque. C'est la commune du Pays de Gex où l'on accueille des clients depuis 1849 — l'expérience client n'est pas un sujet récent ici.",
     closingAngle:
@@ -281,9 +281,9 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
           "Détection des dossiers inactifs depuis X jours, génération automatique d'emails de relance personnalisés selon le contexte de chaque dossier.",
       },
     ],
-    recommendedFormationSlug: "ia-pour-dirigeants-pme",
+    recommendedFormationSlug: "formation-equipe",
     recommendedFormationRationale:
-      "Pour un dirigeant ou un associé de cabinet à Ornex, le format deux jours intensifs est idéal : on couvre les enjeux stratégiques, on expérimente sur de vrais cas du cabinet, et on repart avec un plan d'action validé. Pas une formation en chambre — un atelier orienté résultats.",
+      "Pour un dirigeant ou un associé de cabinet à Ornex, la formation équipe est idéale : on couvre les bons usages, vos collaborateurs s'exercent sur de vrais cas du cabinet et repartent capables de faire. Pas une formation en chambre — un atelier orienté résultats.",
     localProof:
       "Centre-ville d'Ornex, hameau de Maconnex, zones résidentielles du Vésegnin et de Villard-Tacon. Proximité immédiate de Ferney-Voltaire et de la zone tertiaire qui s'y est développée. La commune où l'on bascule du résidentiel au professionnel sans changer d'adresse.",
     closingAngle:
@@ -334,9 +334,9 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
           "Prévision automatique des besoins en matière première, génération des bons de commande, négociation par email assistée — tout en gardant la décision finale humaine.",
       },
     ],
-    recommendedFormationSlug: "audit-ia-plan-action",
+    recommendedFormationSlug: "chantier-ia",
     recommendedFormationRationale:
-      "Pour une PME industrielle ou un artisan de Thoiry, la journée d'audit sur site est le bon point d'entrée. On observe les processus réels, on identifie les goulots, on chiffre les gains possibles. À l'issue : un plan concret de 5 cas d'usage hiérarchisés par ROI — pas une formation théorique.",
+      "Pour une PME industrielle ou un artisan de Thoiry, le Chantier sur site est le bon point d'entrée. On choisit un processus à fort enjeu et on construit ensemble l'outil qui le règle — déployé, à votre nom. À l'issue : un outil qui tourne pour de vrai, pas une formation théorique.",
     localProof:
       "Zone d'activités de la Bagnolle, vignobles de Thoiry, voie verte, proximité immédiate de la station de Crozet-Lélex-Mijoux. C'est la commune qui mêle l'odeur de l'usine et celle des sapins — un caractère unique dans le Pays de Gex.",
     closingAngle:
@@ -440,9 +440,9 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
           "Chatbot site web qui qualifie les visiteurs, répond aux questions récurrentes, prend des rendez-vous — l'équivalent d'un commercial junior, 24h/24, pour quelques dizaines d'euros par mois.",
       },
     ],
-    recommendedFormationSlug: "audit-ia-plan-action",
+    recommendedFormationSlug: "chantier-ia",
     recommendedFormationRationale:
-      "Pour une TPE en démarrage à Cessy, la journée d'audit permet de poser des fondations IA solides dès le début — au lieu d'accumuler des outils dans le désordre. Vous repartez avec une feuille de route 90 jours adaptée à votre taille et votre stade.",
+      "Pour une TPE en démarrage à Cessy, le Chantier permet de poser des fondations IA solides dès le début — un premier outil concret plutôt qu'une accumulation d'outils dans le désordre. Vous repartez avec une solution qui tourne, adaptée à votre taille et votre stade.",
     localProof:
       "Zone du Tougin, ZAC en cours de développement, école et infrastructures sportives en expansion. Cessy est la commune qui se construit en temps réel — et où il est encore temps d'intégrer l'IA dès les fondations, pas en rattrapage.",
     closingAngle:
@@ -524,9 +524,9 @@ export function getCityProfiles(): CityProfile[] {
         whyAiHere:
           "L'IA générative est un levier de productivité accessible à toutes les structures.",
         useCases: [],
-        recommendedFormationSlug: "audit-ia-plan-action",
+        recommendedFormationSlug: "chantier-ia",
         recommendedFormationRationale:
-          "L'audit IA est le point d'entrée recommandé pour une cartographie sur mesure.",
+          "Le Chantier IA est le point d'entrée recommandé pour construire un premier outil sur mesure.",
         localProof: `${name}, dans le Pays de Gex.`,
         closingAngle: "Discutons de votre projet IA.",
       };

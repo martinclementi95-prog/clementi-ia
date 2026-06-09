@@ -4,8 +4,8 @@ import { ArrowUpRight, Clock, Users, Building2, User } from "lucide-react";
 import {
   formations,
   getFormationsByAudience,
+  formationPriceLabel,
 } from "@/lib/config/formations";
-import { formatPrice } from "@/lib/utils";
 import { siteConfig } from "@/lib/config/site";
 import { JsonLd } from "@/components/seo/json-ld";
 import { breadcrumbSchema } from "@/lib/schema";
@@ -186,7 +186,7 @@ function FormationsBlock({
                 <hr className="rule" />
                 <div className="flex items-baseline justify-between">
                   <span className="text-[1.25rem] font-bold tracking-[-0.02em] text-ink">
-                    {formatPrice(f.price)}
+                    {formationPriceLabel(f)}
                   </span>
                   <span className="text-[12px] text-muted-2">{f.priceUnit}</span>
                 </div>

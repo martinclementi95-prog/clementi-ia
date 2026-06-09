@@ -27,8 +27,8 @@ export function Hero() {
             </h1>
 
             <p className="text-[17px] md:text-[19px] text-muted leading-[1.55] max-w-[36rem] text-pretty">
-              Formation, audit, accompagnement pour les PME, équipes,
-              indépendants, étudiants et particuliers curieux du Pays de Gex.
+              Formation, chantiers concrets et accompagnement pour les PME,
+              équipes, indépendants et particuliers curieux du Pays de Gex.
               <span className="text-ink"> Des cas d’usage qui tournent dès la semaine d’après.</span>
             </p>
 
