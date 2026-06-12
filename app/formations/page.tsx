@@ -117,8 +117,16 @@ function FormationsBlock({
   subtitle: string;
   items: typeof formations;
 }) {
+  // On choisit un nombre de colonnes qui se remplit proprement, pour ne pas
+  // laisser de cellule vide (le fond gris de la grille ressortirait sinon).
   const lgCols =
-    items.length >= 3 ? "lg:grid-cols-3" : items.length === 2 ? "lg:grid-cols-2" : "lg:grid-cols-1";
+    items.length === 4
+      ? "lg:grid-cols-2"
+      : items.length >= 3
+        ? "lg:grid-cols-3"
+        : items.length === 2
+          ? "lg:grid-cols-2"
+          : "lg:grid-cols-1";
   const mdCols = items.length >= 2 ? "md:grid-cols-2" : "md:grid-cols-1";
   // Une offre seule ne doit pas s'étirer en bannière : on la garde à une largeur de carte.
   const widthCap = items.length === 1 ? "max-w-sm" : "";
