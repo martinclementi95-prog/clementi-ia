@@ -20,16 +20,16 @@ export function Hero() {
             <div className="eyebrow">Martin Clementi · Pays de Gex</div>
 
             <h1 className="text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[4.75rem] font-bold leading-[1] tracking-[-0.035em] text-balance">
-              J’apprends à <span className="mark-terra">utiliser</span> l’IA.
+              Je vous apprends à <span className="mark-terra">utiliser</span> l’IA.
               <span className="block text-muted mt-3 lg:mt-4">
-                Concrètement, sans buzzwords, à votre rythme.
+                Concrètement, à votre rythme.
               </span>
             </h1>
 
             <p className="text-[17px] md:text-[19px] text-muted leading-[1.55] max-w-[36rem] text-pretty">
-              Formation, chantiers concrets et accompagnement pour les PME,
-              équipes, indépendants et particuliers curieux du Pays de Gex.
-              <span className="text-ink"> Des cas d’usage qui tournent dès la semaine d’après.</span>
+              Formation, chantiers et accompagnement pour les PME, les équipes
+              et les particuliers curieux du Pays de Gex.
+              <span className="text-ink"> Des outils qui tournent dès la semaine d’après.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-7 pt-2">
@@ -60,7 +60,7 @@ export function Hero() {
                 <span>Martin Clementi, fondateur</span>
                 <span className="flex items-center gap-1.5">
                   <span className="inline-block size-1.5 rounded-full bg-terra" />
-                  Sessions Q3 2026 ouvertes
+                  Sessions automne 2026 ouvertes
                 </span>
               </figcaption>
             </figure>

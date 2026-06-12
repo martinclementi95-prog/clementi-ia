@@ -30,7 +30,7 @@ export const formations: Formation[] = [
     slug: "cadrage-ia",
     title: "Le Cadrage IA",
     tagline:
-      "30 minutes pour identifier, ensemble, le premier outil IA qui ferait gagner du temps à votre entreprise. Gratuit, sans engagement.",
+      "30 à 45 minutes pour identifier, ensemble, le premier outil IA qui ferait gagner du temps à votre entreprise. Gratuit, sans engagement.",
     audience: "b2b",
     free: true,
     duration: "30–45 min",
@@ -40,7 +40,7 @@ export const formations: Formation[] = [
     priceUnit: "sans engagement",
     level: "Tous niveaux",
     description:
-      "Avant de se lancer, on fait le point. En 30 à 45 minutes, on regarde ensemble votre activité, les tâches qui vous prennent du temps, et on repère LE premier chantier IA à fort impact. Vous repartez avec une idée claire de ce qu'on pourrait construire, le gain estimé et le format adapté — sans aucun engagement de votre part.",
+      "Avant de se lancer, on fait le point. En 30 à 45 minutes, on regarde ensemble votre activité, les tâches qui vous prennent du temps, et on repère LE premier chantier IA à fort impact. Vous repartez avec une idée claire de ce qu'on pourrait construire, le gain estimé et le format adapté. Sans aucun engagement de votre part.",
     outcomes: [
       "Identifier le cas d'usage IA le plus rentable pour vous",
       "Estimer le temps que vous pourriez gagner",
@@ -68,7 +68,7 @@ export const formations: Formation[] = [
     slug: "formation-equipe",
     title: "La Formation équipe",
     tagline:
-      "On forme vos équipes sur des usages concrets de l'IA. Elles repartent capables de faire — pas juste au courant.",
+      "On forme vos équipes sur leurs usages réels de l'IA. Elles repartent capables de faire, pas juste au courant.",
     audience: "b2b",
     featured: true,
     priceFrom: true,
@@ -76,10 +76,10 @@ export const formations: Formation[] = [
     format: "Présentiel — vos locaux",
     groupSize: "Jusqu'à 8 collaborateurs",
     price: 900,
-    priceUnit: "la demi-journée — sur devis",
+    priceUnit: "la demi-journée, sur devis",
     level: "Tous niveaux",
     description:
-      "Une formation qui ne s'arrête pas aux slides. On part de vos métiers, de vos vrais cas, et vos collaborateurs mettent les mains dans les outils. À chaque étape, j'explique le pourquoi — le bon outil, la bonne pratique, la sécurité des données — pour qu'ils sachent refaire seuls. Ils repartent capables d'utiliser l'IA dans leur quotidien, avec un ou deux mini-outils déjà en main.",
+      "Une formation qui ne s'arrête pas à la théorie. On part de vos métiers, de vos vrais cas, et vos collaborateurs mettent les mains dans les outils. À chaque étape, j'explique le pourquoi : le bon outil, la bonne manière de faire, la sécurité des données. Pour qu'ils sachent refaire seuls. Ils repartent capables d'utiliser l'IA dans leur quotidien, avec un ou deux mini-outils déjà en main.",
     outcomes: [
       "Des équipes autonomes sur les bons outils IA",
       "Les bonnes pratiques : qualité, sécurité, RGPD",
@@ -116,7 +116,7 @@ export const formations: Formation[] = [
     slug: "chantier-ia",
     title: "Le Chantier IA",
     tagline:
-      "On construit ensemble un outil concret — automatisation, assistant, back-office — qui tourne pour de vrai. Vous repartez avec l'outil et le savoir-faire.",
+      "On construit ensemble un outil qui tourne pour de vrai : une automatisation, un assistant, un back-office. Vous repartez avec l'outil et le savoir-faire.",
     audience: "b2b",
     featured: true,
     priceFrom: true,
@@ -124,10 +124,10 @@ export const formations: Formation[] = [
     format: "Présentiel + finition à distance",
     groupSize: "1 à 4 personnes concernées",
     price: 1500,
-    priceUnit: "la journée — projet plus large sur devis",
+    priceUnit: "la journée, projet plus large sur devis",
     level: "Tous niveaux",
     description:
-      "Le cœur de ma méthode. On choisit un problème concret de votre entreprise et on construit l'outil qui le résout — ensemble. Vos mains sur le clavier, je vous coache et j'explique chaque choix. La mise en ligne et l'hébergement, je m'en charge en finition : c'est inclus. Vous ne repartez pas avec des slides, mais avec un outil qui tourne — et la capacité de le faire vivre vous-même. Un outil simple tient en une journée ; un back-office avec base de données se construit sur quelques jours.",
+      "Le cœur de ma méthode. On choisit un vrai problème de votre entreprise et on construit ensemble l'outil qui le résout. Vos mains sur le clavier, je vous coache et j'explique chaque choix. La mise en ligne et l'hébergement, je m'en charge en finition : c'est inclus. Vous ne repartez pas avec une présentation, mais avec un outil qui tourne, et la capacité de le faire vivre vous-même. Un outil simple tient en une journée ; un back-office avec base de données se construit sur quelques jours.",
     outcomes: [
       "Un outil déployé qui fonctionne pour de vrai",
       "La capacité de le modifier et le faire évoluer vous-même",
@@ -175,14 +175,14 @@ export const formations: Formation[] = [
       "Un partenaire IA à vos côtés chaque mois : un nouvel outil construit, vos équipes qui montent en autonomie, et un accès direct pour vos questions du quotidien.",
     audience: "b2b",
     featured: true,
-    duration: "4 h / mois — engagement 6 mois",
+    duration: "4 h / mois, engagement 6 mois",
     format: "Mix présentiel + visio + asynchrone",
     groupSize: "Sur-mesure (1 à 5 personnes)",
     price: 800,
     priceUnit: "par mois",
     level: "Tous niveaux",
     description:
-      "Plutôt qu'une intervention ponctuelle, un partenaire dans la durée. Chaque mois, on construit ensemble un nouvel outil, on le met en service et on le mesure — et vos équipes montent en autonomie au passage. Entre deux, vous avez un accès direct par WhatsApp pour vos questions du quotidien. Vos outils restent chez vous, à votre nom : vous restez parce que ça marche, pas parce que vous êtes coincé.",
+      "Plutôt qu'une intervention ponctuelle, un partenaire dans la durée. Chaque mois, on construit ensemble un nouvel outil, on le met en service et on le mesure ; vos équipes montent en autonomie au passage. Entre deux, vous avez un accès direct par WhatsApp pour vos questions du quotidien. Vos outils restent chez vous, à votre nom : vous restez parce que ça marche, pas parce que vous êtes coincé.",
     outcomes: [
       "Un nouvel outil construit et mesuré chaque mois",
       "Vos équipes de plus en plus autonomes",
@@ -228,7 +228,7 @@ export const formations: Formation[] = [
     priceUnit: "par personne",
     level: "Débutant",
     description:
-      "Vous avez entendu parler de l'IA, vous l'avez peut-être essayée, mais vous ne savez pas vraiment quoi en faire ? En une demi-journée bienveillante et concrète, on apprend les bases — puis vous repartez avec un vrai petit outil qui tourne : tri de vos mails, alerte sur un prix, assistant pour vos démarches et courriers. Pas juste de la théorie : un résultat utile dès le lendemain.",
+      "Vous avez entendu parler de l'IA, vous l'avez peut-être essayée, mais vous ne savez pas vraiment quoi en faire ? En une demi-journée bienveillante, on apprend les bases, puis vous repartez avec un vrai petit outil qui tourne : tri de vos mails, alerte sur un prix, assistant pour vos démarches et vos courriers. Pas juste de la théorie : un résultat utile dès le lendemain.",
     outcomes: [
       "Repartir avec un premier outil IA qui fonctionne",
       "Rédiger lettres, courriels et démarches en quelques minutes",

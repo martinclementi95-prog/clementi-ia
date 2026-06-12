@@ -16,8 +16,8 @@ export function Footer() {
               <Wordmark />
             </Link>
             <p className="text-[15px] text-[var(--color-muted)] leading-relaxed max-w-sm">
-              Formation, audit et accompagnement IA pour les entreprises et
-              habitants du Pays de Gex. Un partenaire de confiance, ancré
+              Formation, audit et accompagnement IA pour les entreprises et les
+              particuliers du Pays de Gex. Un partenaire de confiance, ancré
               localement.
             </p>
             <div className="flex items-center gap-2 mt-2">

@@ -11,12 +11,12 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Formations IA — Catalogue B2B & B2C",
+  title: "Formations IA — Entreprises & particuliers",
   description:
-    "Catalogue de formations IA dans le Pays de Gex : audit IA, formation IA pour dirigeants, agents IA sur-mesure, déploiement en équipe. Programmes B2B et B2C.",
+    "Catalogue de formations IA dans le Pays de Gex : cadrage, formation des équipes, chantiers d'outils sur-mesure, accompagnement. Programmes pour entreprises et particuliers.",
   alternates: { canonical: `${siteConfig.url}/formations` },
   openGraph: {
-    title: "Formations IA — Catalogue B2B & B2C",
+    title: "Formations IA — Entreprises & particuliers",
     description:
       "Programmes de formation IA pour PME, équipes, indépendants, étudiants et particuliers du Pays de Gex.",
     url: `${siteConfig.url}/formations`,

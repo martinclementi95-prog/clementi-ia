@@ -234,9 +234,10 @@ export default async function FormationDetailPage({
 
               <Block title="Certification" small icon={Award}>
                 <p className="text-[14px] text-ink-2 leading-[1.55]">
-                  Attestation de formation remise à l’issue du programme.
-                  Démarche Qualiopi en cours pour permettre la prise en charge
-                  par les OPCO et le CPF.
+                  Attestation de formation remise à l’issue du programme. La
+                  prise en charge OPCO ou CPF dépend de la certification
+                  Qualiopi, que je n’ai pas encore obtenue : les formations se
+                  règlent donc directement pour l’instant.
                 </p>
               </Block>
             </aside>

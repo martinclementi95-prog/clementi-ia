@@ -33,13 +33,13 @@ export const faqItems: FaqItem[] = [
     category: "tarifs",
     question: "Quels sont les tarifs des formations ?",
     answer:
-      "Les tarifs vont de 150 € par personne pour une demi-journée B2C à 1 500 € la journée pour un audit IA en entreprise. Le détail de chaque tarif est indiqué sur la fiche de la formation correspondante.",
+      "Les tarifs vont de 150 € par personne pour une demi-journée auprès des particuliers à 1 500 € la journée pour un chantier IA en entreprise. Le détail de chaque tarif est indiqué sur la fiche de la formation correspondante.",
   },
   {
     category: "tarifs",
     question: "Les formations sont-elles éligibles au CPF ou aux OPCO ?",
     answer:
-      "La certification Qualiopi est en cours, ce qui permettra prochainement la prise en charge par les OPCO et le CPF. Si vous souhaitez utiliser ces dispositifs, contactez-moi pour qu'on regarde ensemble le calendrier.",
+      "Pas encore. La prise en charge OPCO ou CPF dépend de la certification Qualiopi, que je n'ai pas encore obtenue. Pour l'instant, les formations se règlent directement. Si ce point est important pour vous, parlons-en : je vous dirai où j'en suis.",
   },
   {
     category: "tarifs",
@@ -51,7 +51,7 @@ export const faqItems: FaqItem[] = [
     category: "local",
     question: "Pourquoi un partenaire IA basé dans le Pays de Gex ?",
     answer:
-      "Parce que comprendre le tissu économique local — PME industrielles, commerces, professions libérales, indépendants frontaliers — fait toute la différence dans la pertinence des cas d'usage proposés. Contrairement à un organisme parisien ou genevois, je me déplace sur site, je connais les acteurs, et je facture en euros sans frais cachés.",
+      "Parce que comprendre le tissu économique local (PME industrielles, commerces, professions libérales, indépendants frontaliers) fait toute la différence dans la pertinence des cas d'usage proposés. Contrairement à un organisme parisien ou genevois, je me déplace sur site, je connais les acteurs, et je facture en euros sans frais cachés.",
   },
   {
     category: "local",
@@ -63,20 +63,20 @@ export const faqItems: FaqItem[] = [
     category: "qualiopi",
     question: "Êtes-vous certifié Qualiopi ?",
     answer:
-      "La démarche Qualiopi est engagée. Une attestation de formation est remise à l'issue de chaque programme, et la certification permettra à terme la prise en charge OPCO et CPF des formations professionnelles.",
+      "Pas encore. Une attestation de formation est remise à l'issue de chaque programme. La certification Qualiopi, qui ouvrira la prise en charge OPCO et CPF, fait partie de mes prochaines étapes : je préfère ne pas l'annoncer tant qu'elle n'est pas obtenue.",
   },
   {
     category: "approche",
     question:
       "En quoi votre approche diffère-t-elle d'un cabinet de conseil classique ?",
     answer:
-      "Je suis interlocuteur unique de A à Z. Pas de junior placé sur votre projet, pas de pitch commercial recyclé. Je forme, je code, je déploie moi-même. Et je mesure les résultats à vos côtés — pas un livrable PowerPoint qui finit au tiroir.",
+      "Je suis votre interlocuteur unique de A à Z : celui qui forme vos équipes est aussi celui qui code, déploie et mesure les résultats avec vous. Le contraire d'un livrable PowerPoint qui finit dans un tiroir.",
   },
   {
     category: "approche",
     question: "En combien de temps voit-on des résultats ?",
     answer:
-      "Les premiers cas d'usage tournent généralement dès la semaine suivant une formation ou un audit. Pour un partenariat 6 mois, on déploie en moyenne un cas d'usage par trimestre avec des KPI mesurés.",
+      "Les premiers outils tournent généralement dès la semaine qui suit une formation ou un chantier. Sur un accompagnement de 6 mois, on déploie en moyenne un nouvel outil par mois, avec des résultats chiffrés.",
   },
   {
     category: "approche",

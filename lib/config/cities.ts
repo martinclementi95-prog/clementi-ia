@@ -251,12 +251,12 @@ const profiles: Record<string, Omit<CityProfile, "name" | "slug">> = {
     identity:
       "Ornex est une commune résidentielle premium qui a vu, ces dix dernières années, s'installer un nombre croissant de cabinets de conseil, d'études d'avocats, de fiduciaires et de professions libérales. La proximité de Ferney-Voltaire et de la frontière en fait une adresse prisée pour les indépendants à forte valeur ajoutée.",
     economicReality:
-      "Tertiaire de proximité : cabinets d'avocats et d'experts-comptables, conseil en patrimoine, conseil en management, professions médicales spécialisées, agences immobilières. Une économie où le temps est littéralement de l'argent — chaque heure non facturée est une perte sèche.",
+      "Tertiaire de proximité : cabinets d'avocats et d'experts-comptables, conseil en patrimoine, conseil en management, professions médicales spécialisées, agences immobilières. Une économie où le temps, c'est de l'argent : chaque heure non facturée est une perte sèche.",
     whyAiHere:
       "Pour un cabinet ou une profession libérale, l'IA générative s'attaque directement au plus gros poste de temps non facturable : la documentation, la rédaction, le reporting, la qualification de prospects. Économiser deux heures par jour sur ces tâches, c'est l'équivalent d'un dixième de chiffre d'affaires en plus — sans embaucher.",
     useCases: [
       {
-        title: "Qualification automatique de leads entrants",
+        title: "Qualification automatique des demandes entrantes",
         detail:
           "Un agent IA qui pré-qualifie les demandes par email ou formulaire, identifie les vrais prospects et alimente directement le CRM avec un score de priorité.",
       },

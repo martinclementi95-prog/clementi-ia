@@ -37,13 +37,13 @@ const timeline = [
     icon: Building2,
     year: "Entrepreneuriat",
     title: "Plusieurs sociétés créées",
-    text: "Fondation et développement de plusieurs sociétés en France et en Suisse. Chaque création m’a appris à piloter une activité de bout en bout — go-to-market, finance, embauche, déploiement technologique.",
+    text: "Fondation et développement de plusieurs sociétés en France et en Suisse. Chaque création m’a appris à piloter une activité de bout en bout : du lancement commercial à la finance, en passant par le recrutement et la technique.",
   },
   {
     icon: Compass,
     year: "Aujourd’hui",
     title: "Partenaire IA du Pays de Gex",
-    text: "Je transmets cette expérience aux PME et habitants du Pays de Gex. Ancré localement, je rends l’IA accessible, déployable et rentable pour le tissu économique de notre territoire.",
+    text: "Je transmets cette expérience aux PME et aux particuliers du Pays de Gex. Mon objectif : rendre l’IA vraiment utilisable par le tissu économique local, sans qu’on ait besoin d’être technicien pour s’en servir.",
   },
 ];
 
@@ -73,9 +73,9 @@ export default function AProposPage() {
               </p>
               <p className="text-[15px] md:text-[16px] text-muted text-pretty leading-[1.6] max-w-xl">
                 J’ai créé Clementi IA pour mettre cette expérience au service
-                des entreprises et des habitants du Pays de Gex. Mon ambition
-                est simple : faire de notre territoire l’un des plus avancés
-                de France sur l’usage opérationnel de l’IA.
+                des entreprises et des particuliers du Pays de Gex. L’idée :
+                faire de notre territoire l’un des mieux outillés de France sur
+                l’usage quotidien de l’IA.
               </p>
             </div>
 
@@ -156,22 +156,20 @@ export default function AProposPage() {
                 <span className="mark-terra">barrière technique</span>.
               </p>
               <p className="mt-7 text-[16px] md:text-[17px] text-muted leading-[1.6] text-pretty">
-                Je vais être franc : je trouve ça génial. Avec quelques bases
-                solides, les bons outils et les bonnes pratiques, on peut
-                littéralement tout faire, tout apprendre, tout construire —
-                peu importe la taille du projet. Une personne seule livre
-                aujourd’hui ce qui demandait une équipe entière il y a deux
-                ans.
+                Je trouve ça fascinant. Avec quelques bases solides et les bons
+                réflexes, on construit aujourd’hui en quelques jours des outils
+                qui demandaient une équipe entière et des mois de travail il y a
+                deux ans : un assistant qui répond aux clients, un tableau de
+                bord qui se met à jour seul, un devis prêt en deux minutes.
               </p>
               <p className="mt-5 text-[16px] md:text-[17px] text-muted leading-[1.6] text-pretty">
-                C’est cette explosion de possibilités qui me passionne
-                vraiment. Pas l’effet de mode, pas les promesses creuses. Le
-                fait concret que n’importe qui — dirigeant de PME,
-                indépendant, étudiant, simple curieux — peut désormais
-                accomplir des choses qui paraissaient inaccessibles, à
-                condition de savoir comment s’y prendre.{" "}
+                C’est cette explosion de possibilités qui me passionne, bien
+                plus que l’effet de mode. Un dirigeant de PME, un indépendant,
+                un étudiant, un simple curieux : chacun peut désormais accomplir
+                des choses qui paraissaient hors de portée, à condition de
+                savoir s’y prendre.{" "}
                 <span className="text-ink">
-                  C’est précisément pour ça que je transmets.
+                  C’est exactement pour ça que je transmets.
                 </span>
               </p>
             </div>
@@ -188,14 +186,14 @@ export default function AProposPage() {
             </div>
             <div className="lg:col-span-8 max-w-2xl">
               <p className="text-[1.5rem] md:text-[1.875rem] font-bold tracking-[-0.025em] leading-[1.2] text-ink text-balance">
-                L’IA n’est pas une vague. C’est un nouveau{" "}
+                Bientôt, savoir se servir de l’IA sera un{" "}
                 <span className="mark-terra">standard d’exigence</span>.
               </p>
               <p className="mt-7 text-[16px] md:text-[17px] text-muted leading-[1.6] text-pretty">
-                Les entreprises qui maîtriseront l’IA dans les 24 prochains
-                mois ne créeront pas un simple avantage compétitif — elles
-                définiront le standard de leur marché. Mon métier est de
-                m’assurer que les PME du Pays de Gex en font partie.
+                Les entreprises qui s’y mettent ces deux prochaines années ne
+                prendront pas juste un peu d’avance : elles fixeront le niveau
+                attendu sur leur marché. Mon métier, c’est de m’assurer que les
+                PME du Pays de Gex en fassent partie.
               </p>
             </div>
           </div>

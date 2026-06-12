@@ -46,19 +46,14 @@ export function FounderCard() {
             </p>
             <p className="text-[16px] leading-[1.6] text-muted text-pretty">
               Quand vous travaillez avec moi, vous travaillez{" "}
-              <span className="text-ink">directement avec moi.</span> Pas de
-              junior placé sur votre projet, pas de pitch commercial recyclé.
-              Juste quelqu’un qui forme, qui code, et qui mesure les résultats
-              à vos côtés.
+              <span className="text-ink">directement avec moi.</span> Celui qui
+              forme vos équipes est aussi celui qui code l’outil et qui mesure ce
+              qu’il vous fait gagner. Pas un junior à qui on a refilé le dossier.
             </p>
 
-            <dl className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-5 pt-4 border-t border-ink/10 text-[13px]">
+            <dl className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-5 pt-4 border-t border-ink/10 text-[13px]">
               <div>
-                <dt className="text-muted mb-1">Basé à</dt>
-                <dd className="font-semibold text-ink">Pays de Gex</dd>
-              </div>
-              <div>
-                <dt className="text-muted mb-1">Couverture</dt>
+                <dt className="text-muted mb-1">Basé dans le</dt>
                 <dd className="font-semibold text-ink">Pays de Gex</dd>
               </div>
               <div>
@@ -66,8 +61,10 @@ export function FounderCard() {
                 <dd className="font-semibold text-ink">Finance & commerce</dd>
               </div>
               <div>
-                <dt className="text-muted mb-1">Référence</dt>
-                <dd className="font-semibold text-ink">Plusieurs sociétés FR/CH</dd>
+                <dt className="text-muted mb-1">Parcours</dt>
+                <dd className="font-semibold text-ink">
+                  Sociétés fondées en France & en Suisse
+                </dd>
               </div>
             </dl>
 

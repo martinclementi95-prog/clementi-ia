@@ -7,17 +7,17 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
   {
     title: "Former",
-    text: "Vos équipes montent en compétence sur des cas réels. Elles repartent capables de faire, pas juste au courant.",
+    text: "Vos équipes montent en compétence sur leurs propres cas, et repartent capables de s’en servir seules.",
     href: "/formations",
   },
   {
     title: "Construire",
-    text: "On construit ensemble l’outil qui résout votre problème — automatisation, assistant, back-office. Vous repartez avec.",
+    text: "On construit ensemble l’outil qui résout votre problème : une automatisation, un assistant interne, un petit back-office. Vous repartez avec.",
     href: "/formations/chantier-ia",
   },
   {
     title: "Accompagner",
-    text: "Un partenaire dans la durée. Un nouvel outil par mois, vos équipes autonomes, accès direct.",
+    text: "Un partenaire dans la durée : un nouvel outil chaque mois, des équipes qui gagnent en autonomie, et un accès direct entre deux.",
     href: "/conseil",
   },
 ];
@@ -39,8 +39,8 @@ export function TroisPiliers() {
               Trois manières de travailler ensemble.
             </h2>
             <p className="mt-5 text-[15px] text-muted leading-[1.55] max-w-sm">
-              Selon votre maturité IA, votre temps et vos enjeux — il y a un
-              format adapté.
+              Selon là où vous en êtes et le temps que vous avez, il y a un
+              format qui vous convient.
             </p>
           </div>
 

@@ -7,16 +7,16 @@ export const siteConfig = {
   brand: "Clementi IA",
   tagline: "Le partenaire IA du Pays de Gex",
   description:
-    "Formation, audit et accompagnement IA pour les entreprises et particuliers du Pays de Gex. Expertise concrète, ancrage local, résultats mesurables.",
+    "Formation, audit et accompagnement IA pour les entreprises et les particuliers du Pays de Gex. Des outils qui tournent, un seul interlocuteur, près de chez vous.",
 
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://clementi-ia.fr",
 
   founder: {
     name: "Martin Clementi",
     role: "Fondateur — Consultant & Formateur IA",
-    bio: "Entrepreneur français basé dans le Pays de Gex. Master en finance, expériences en startups suisses, fondateur de plusieurs sociétés en France et en Suisse. Je conçois et déploie depuis plusieurs années des projets d'envergure pilotés par l'IA pour des entreprises de toutes tailles.",
+    bio: "Entrepreneur installé dans le Pays de Gex. Après un master en finance et plusieurs années passées dans des startups suisses, j'ai fondé mes propres sociétés en France et en Suisse. Depuis, je conçois et déploie des outils IA pour des entreprises de toutes tailles.",
     shortBio:
-      "Entrepreneur multi-sociétés (France & Suisse), je mets mon expérience terrain de l'IA au service des entreprises et habitants du Pays de Gex.",
+      "Entrepreneur multi-sociétés (France & Suisse), je mets mon expérience de terrain au service des entreprises et des particuliers du Pays de Gex.",
   },
 
   contact: {
@@ -35,7 +35,7 @@ export const siteConfig = {
   legal: {
     company: "Clementi IA — Martin Clementi EI",
     siret: "À compléter",
-    qualiopi: "Démarche Qualiopi engagée",
+    qualiopi: "Attestation de formation remise",
     address: "Pays de Gex (01)",
   },
 

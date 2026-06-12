@@ -28,17 +28,17 @@ const services = [
   {
     icon: Workflow,
     title: "Déploiement d’automatisations",
-    text: "Conception et mise en production de workflows IA (Make, n8n, Zapier + LLM). De la documentation client à la qualification de leads.",
+    text: "Conception et mise en production d’automatisations IA (Make, n8n, Zapier connectés à une IA). De la documentation client à la qualification des prospects.",
   },
   {
     icon: Cpu,
     title: "Agents IA sur-mesure",
-    text: "Création d’assistants IA spécialisés à votre métier : chatbot interne, agent commercial, copilote opérationnel.",
+    text: "Création d’assistants IA spécialisés à votre métier : un chatbot interne, un agent qui épaule vos commerciaux, un assistant pour vos équipes au quotidien.",
   },
   {
     icon: Sparkles,
     title: "Conduite du changement",
-    text: "Formation des équipes, accompagnement managérial, mesure d’impact. Pour que l’IA soit adoptée, pas subie.",
+    text: "Formation des équipes, accompagnement des managers, mesure de l’impact. Pour que vos équipes s’approprient vraiment les outils, au lieu de les contourner.",
   },
   {
     icon: ShieldCheck,
@@ -68,8 +68,8 @@ const packs = [
     highlighted: false,
   },
   {
-    name: "L’Accompagnement",
-    duration: "6 mois — renouvelable",
+    name: "L’Accompagnement IA",
+    duration: "6 mois, renouvelable",
     price: "800 € / mois",
     description:
       "Le format de référence pour intégrer l’IA durablement : un nouvel outil construit chaque mois, vos équipes autonomes, un accès direct au quotidien.",
@@ -119,9 +119,9 @@ export default function ConseilPage() {
               </h1>
             </div>
             <p className="lg:col-span-4 text-[16px] md:text-[17px] text-muted leading-[1.55] max-w-md">
-              Mes interventions ne s’arrêtent pas à un slide deck. Du diagnostic
-              au déploiement, je conçois, code et déploie moi-même les
-              solutions — avec vos équipes.
+              Mes interventions ne s’arrêtent pas à une présentation
+              PowerPoint. Du diagnostic à la mise en production, je construis
+              moi-même les solutions, avec vos équipes.
             </p>
           </div>
           <div className="mt-10">
@@ -169,11 +169,11 @@ export default function ConseilPage() {
           <div className="max-w-2xl mb-14">
             <div className="eyebrow mb-5">Formats d’intervention</div>
             <h2 className="text-[1.75rem] md:text-[2.25rem] font-bold tracking-[-0.03em] leading-[1.05] mb-5">
-              Trois manières de travailler ensemble.
+              Trois formats, selon votre besoin.
             </h2>
             <p className="text-[15px] md:text-[16px] text-muted leading-[1.6]">
-              Du chantier ponctuel à l’accompagnement dans la durée — je
-              m’adapte à votre maturité IA et à vos contraintes.
+              Du chantier ponctuel à l’accompagnement dans la durée : je
+              m’adapte à votre situation et à vos contraintes.
             </p>
           </div>
 

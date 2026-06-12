@@ -68,7 +68,7 @@ export default function FaqPage() {
               </h1>
             </div>
             <p className="lg:col-span-4 text-[16px] md:text-[17px] text-muted leading-[1.55] max-w-md">
-              Public visé, tarifs, financement OPCO/CPF, RGPD, ancrage local —
+              Public visé, tarifs, financement OPCO/CPF, RGPD, ancrage local :
               tout ce qu'on me demande le plus souvent.
             </p>
           </div>
