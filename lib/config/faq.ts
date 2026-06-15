@@ -1,7 +1,7 @@
 export type FaqItem = {
   question: string;
   answer: string;
-  category: "formation" | "tarifs" | "local" | "qualiopi" | "approche";
+  category: "formation" | "tarifs" | "local" | "approche";
 };
 
 export const faqItems: FaqItem[] = [
@@ -37,12 +37,6 @@ export const faqItems: FaqItem[] = [
   },
   {
     category: "tarifs",
-    question: "Les formations sont-elles éligibles au CPF ou aux OPCO ?",
-    answer:
-      "Pas encore. La prise en charge OPCO ou CPF dépend de la certification Qualiopi, que je n'ai pas encore obtenue. Pour l'instant, les formations se règlent directement. Si ce point est important pour vous, parlons-en : je vous dirai où j'en suis.",
-  },
-  {
-    category: "tarifs",
     question: "Proposez-vous des devis sur-mesure pour les entreprises ?",
     answer:
       "Oui. Pour les accompagnements longue durée, les déploiements d'agents IA sur-mesure ou les formations équipe au-delà de 10 personnes, je travaille systématiquement sur devis personnalisé après un premier échange.",
@@ -58,12 +52,6 @@ export const faqItems: FaqItem[] = [
     question: "Quelles villes desservez-vous concrètement ?",
     answer:
       "Tout le Pays de Gex : Gex, Saint-Genis-Pouilly, Divonne-les-Bains, Prévessin-Moëns, Ornex, Thoiry, Sergy, Cessy, Versonnex et les communes alentour. Je me déplace dans tout le département de l'Ain pour les missions qui le justifient.",
-  },
-  {
-    category: "qualiopi",
-    question: "Êtes-vous certifié Qualiopi ?",
-    answer:
-      "Pas encore. Une attestation de formation est remise à l'issue de chaque programme. La certification Qualiopi, qui ouvrira la prise en charge OPCO et CPF, fait partie de mes prochaines étapes : je préfère ne pas l'annoncer tant qu'elle n'est pas obtenue.",
   },
   {
     category: "approche",

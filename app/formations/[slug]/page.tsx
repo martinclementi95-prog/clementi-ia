@@ -123,7 +123,7 @@ export default async function FormationDetailPage({
                 </div>
                 <p className="text-[13px] text-muted mt-1">{f.priceUnit}</p>
                 <p className="mt-2 text-[12px] text-muted-2">
-                  {siteConfig.legal.qualiopi}
+                  Attestation de formation remise
                 </p>
 
                 <hr className="rule my-6" />
@@ -232,12 +232,10 @@ export default async function FormationDetailPage({
                 </p>
               </Block>
 
-              <Block title="Certification" small icon={Award}>
+              <Block title="Attestation" small icon={Award}>
                 <p className="text-[14px] text-ink-2 leading-[1.55]">
-                  Attestation de formation remise à l’issue du programme. La
-                  prise en charge OPCO ou CPF dépend de la certification
-                  Qualiopi, que je n’ai pas encore obtenue : les formations se
-                  règlent donc directement pour l’instant.
+                  Une attestation de formation est remise à l’issue du
+                  programme. Les formations se règlent directement.
                 </p>
               </Block>
             </aside>

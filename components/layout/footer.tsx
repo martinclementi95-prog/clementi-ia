@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { siteConfig } from "@/lib/config/site";
 import { Logo, Wordmark } from "@/components/brand/logo";
 import { Container } from "@/components/ui/container";
@@ -20,16 +20,6 @@ export function Footer() {
               particuliers du Pays de Gex. Un partenaire de confiance, ancré
               localement.
             </p>
-            <div className="flex items-center gap-2 mt-2">
-              <Link
-                href={siteConfig.social.linkedin}
-                target="_blank"
-                aria-label="LinkedIn"
-                className="inline-flex size-9 items-center justify-center rounded-full border border-ink/15 text-ink-2 hover:bg-terra-soft hover:border-terra hover:text-ink transition-colors"
-              >
-                <Linkedin className="size-4" />
-              </Link>
-            </div>
           </div>
 
           <div className="md:col-span-3">
@@ -84,8 +74,6 @@ export function Footer() {
             © {new Date().getFullYear()} {siteConfig.legal.company}.
           </p>
           <div className="flex items-center gap-4">
-            <span>{siteConfig.legal.qualiopi}</span>
-            <span className="hidden md:inline opacity-40">·</span>
             <Link href="/mentions-legales" className="hover:text-ink">
               Mentions légales
             </Link>

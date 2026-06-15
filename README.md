@@ -59,12 +59,12 @@ import Image from "next/image";
 
 ```env
 RESEND_API_KEY=re_xxxxxxxxxx
-CONTACT_EMAIL=martin@clementi-ia.fr
+CONTACT_EMAIL=hello@clementi-ia.fr
 RESEND_FROM=onboarding@resend.dev
 ```
 
 - `CONTACT_EMAIL` = l'adresse qui recevra les messages.
-- `RESEND_FROM` = l'adresse expéditrice. Pour démarrer, utilise `onboarding@resend.dev` (fonctionne sans config). Ensuite, vérifie ton propre domaine dans Resend pour expédier depuis `contact@clementi-ia.fr`.
+- `RESEND_FROM` = l'adresse expéditrice. Pour démarrer, utilise `onboarding@resend.dev` (fonctionne sans config). Ensuite, vérifie ton propre domaine dans Resend pour expédier depuis `hello@clementi-ia.fr`.
 
 Sans variables d'environnement, le formulaire fonctionne mais affiche un message disant à l'utilisateur d'écrire directement à ton email.
 
@@ -175,7 +175,6 @@ Pour changer la couleur de marque, modifie les variables `--color-brand-*`. Tous
 - [ ] Vérifier le domaine vérifié dans Resend
 - [ ] Tester le formulaire de contact en production
 - [ ] Vérifier le rendu mobile sur ton téléphone
-- [ ] Mettre à jour le statut Qualiopi quand obtenu
 
 ---
 

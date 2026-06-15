@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/config/site";
 export const metadata: Metadata = {
   title: "Questions fréquentes — Formations & accompagnement IA",
   description:
-    "Toutes les réponses sur les formations IA Clementi IA : public visé, tarifs, Qualiopi, CPF, OPCO, ancrage Pays de Gex, RGPD. Sans détour.",
+    "Toutes les réponses sur les formations IA Clementi IA : public visé, tarifs, ancrage Pays de Gex, RGPD. Sans détour.",
   alternates: { canonical: `${siteConfig.url}/faq` },
   openGraph: {
     title: "Questions fréquentes — Formations & accompagnement IA",
@@ -23,7 +23,6 @@ const categoryLabels: Record<FaqItem["category"], string> = {
   formation: "Les formations",
   tarifs: "Tarifs & financement",
   local: "Ancrage local",
-  qualiopi: "Qualiopi & certifications",
   approche: "L'approche",
 };
 
@@ -31,7 +30,6 @@ const categoryOrder: FaqItem["category"][] = [
   "approche",
   "formation",
   "tarifs",
-  "qualiopi",
   "local",
 ];
 
@@ -68,8 +66,8 @@ export default function FaqPage() {
               </h1>
             </div>
             <p className="lg:col-span-4 text-[16px] md:text-[17px] text-muted leading-[1.55] max-w-md">
-              Public visé, tarifs, financement OPCO/CPF, RGPD, ancrage local :
-              tout ce qu'on me demande le plus souvent.
+              Public visé, tarifs, RGPD, ancrage local : tout ce qu'on me
+              demande le plus souvent.
             </p>
           </div>
         </div>

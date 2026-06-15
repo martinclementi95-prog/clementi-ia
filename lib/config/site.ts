@@ -20,22 +20,17 @@ export const siteConfig = {
   },
 
   contact: {
-    email: "contact@clementi-ia.fr",
-    phone: "+33 6 00 00 00 00",
+    email: "hello@clementi-ia.fr",
+    phone: "+33 6 59 88 13 81",
     city: "Pays de Gex",
     region: "Ain (01)",
     // Lien Calendly à remplacer par le tien
     calendly: "https://calendly.com/clementi-ia/decouverte",
   },
 
-  social: {
-    linkedin: "https://www.linkedin.com/in/martin-clementi/",
-  },
-
   legal: {
     company: "Clementi IA — Martin Clementi EI",
     siret: "À compléter",
-    qualiopi: "Attestation de formation remise",
     address: "Pays de Gex (01)",
   },
 

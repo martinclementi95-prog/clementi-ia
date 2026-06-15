@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, MapPin, Linkedin } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { siteConfig } from "@/lib/config/site";
 
@@ -93,15 +93,6 @@ export function CTA() {
                 >
                   <Mail className="size-4 text-bg/50 group-hover:text-terra transition-colors shrink-0" />
                   <span className="text-bg/90">{siteConfig.contact.email}</span>
-                </a>
-                <a
-                  href={siteConfig.social.linkedin}
-                  target="_blank"
-                  rel="noopener"
-                  className="group bg-ink hover:bg-ink-2 transition-colors px-4 py-3.5 flex items-center gap-3 text-[14px]"
-                >
-                  <Linkedin className="size-4 text-bg/50 group-hover:text-terra transition-colors shrink-0" />
-                  <span className="text-bg/90">LinkedIn — Martin Clementi</span>
                 </a>
                 <div className="bg-ink px-4 py-3.5 flex items-center gap-3 text-[14px]">
                   <MapPin className="size-4 text-bg/50 shrink-0" />

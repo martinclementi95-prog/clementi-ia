@@ -50,7 +50,6 @@ export function organizationSchema() {
     })),
     founder: { "@id": PERSON_ID },
     employee: { "@id": PERSON_ID },
-    sameAs: [siteConfig.social.linkedin],
     knowsAbout: [
       "Intelligence Artificielle",
       "Formation IA",
@@ -126,7 +125,6 @@ export function personSchema() {
     description: siteConfig.founder.bio,
     url: `${BASE_URL}/a-propos`,
     image: `${BASE_URL}/martin.jpg`,
-    sameAs: [siteConfig.social.linkedin],
     worksFor: { "@id": ORG_ID },
     knowsAbout: [
       "Intelligence Artificielle",

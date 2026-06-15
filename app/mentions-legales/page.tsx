@@ -59,10 +59,6 @@ export default function MentionsLegales() {
               </a>
               .
             </LegalBlock>
-
-            <LegalBlock title="Certification">
-              {siteConfig.legal.qualiopi}.
-            </LegalBlock>
           </div>
         </div>
       </div>

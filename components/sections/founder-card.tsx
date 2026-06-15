@@ -3,8 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Linkedin } from "lucide-react";
-import { siteConfig } from "@/lib/config/site";
+import { ArrowUpRight } from "lucide-react";
 
 export function FounderCard() {
   return (
@@ -75,14 +74,6 @@ export function FounderCard() {
               >
                 Lire le parcours complet
                 <ArrowUpRight className="size-3.5" />
-              </Link>
-              <Link
-                href={siteConfig.social.linkedin}
-                target="_blank"
-                className="inline-flex items-center gap-1.5 text-[14px] text-muted hover:text-ink transition-colors"
-              >
-                <Linkedin className="size-4" />
-                LinkedIn
               </Link>
             </div>
           </div>
